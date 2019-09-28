@@ -10,11 +10,13 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     background-image: url('../../assets/companyLogo/gallery.png');
+    border-radius: 15px;
 }
 .contentArea {
     padding: 10px;
 }
 .imageArea {
+    padding-top: 10px;
     padding-left: 30px;
 }
 .centerContainer {
