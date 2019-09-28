@@ -63,4 +63,5 @@ form {
     background-image: url('../../assets/companyLogo/gallery.png');
     border-radius: 15px;
     margin-top: 10px;
+    padding: 5px;
 }
