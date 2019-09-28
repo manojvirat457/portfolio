@@ -11,6 +11,7 @@
     transition: 0.3s;
     background-image: url('../../assets/companyLogo/gallery.png');
     border-radius: 15px;
+    margin-top: 10px;
 }
 .contentArea {
     padding: 10px;
@@ -19,7 +20,7 @@
     padding-top: 10px;
     padding-left: 30px;
 }
-.centerContainer {
+#centerContainer {
     width: 100%;
     width: 100%;
 }
