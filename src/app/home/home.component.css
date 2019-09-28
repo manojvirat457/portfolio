@@ -1,0 +1,51 @@
+.container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px !important;
+    
+    background-image: url('../../assets/companyLogo/money.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#name {
+    color: rgb(26, 115, 232);
+}
+
+#left {
+    background-image: url('../../assets/Icons/solutions_bg.svg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.btn-group {
+    border-radius: 5px;
+    border-color: #616161;
+}
+
+.btn-group > button:hover {
+    border: 2px;
+    border-color: #616161;
+}
+.column {
+    width: 100%;
+}
+
+#right {    
+    /* background-image: url('../../assets/companyLogo/money.png'); */
+    background-repeat: no-repeat;
+}
+
+.row {
+    
+    background-image: url('../../assets/Icons/pricing_bg.svg');
+    background-repeat: no-repeat;
+    
+}
+a:hover {
+    border: 2px;
+    border-color: #616161;
+}
+
+a {
+    text-decoration: none;
+}

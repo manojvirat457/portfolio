@@ -1,0 +1,27 @@
+<div class="container">
+    <p style="color: rgb(26, 115, 232); font-size: 42px;">
+        /> Blogs
+    </p>
+    <ul>
+        <li *ngFor="let post of postDetails" style="padding-top: 50px;">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <img src='{{ post.imageLink }}' alt="Avatar" style="height:50px" width="50px">
+                    </div>
+                    <div>
+                        <h4><b>{{ post.title }}</b></h4>
+                        <p>{{ post.pubDate }}</p>
+                    </div>
+                    <div>
+                        <a href='{{ post.link }}'>
+                            <img src="../../assets/Icons/keyboard_arrow_right_black_36dp.png" alt="play" height="50px" width="50px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </li>
+        
+    </ul>
+</div>
