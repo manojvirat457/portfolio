@@ -66,11 +66,11 @@
     <div class="row">
       <div class="col-sm-6">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Mail Id" id="mail">
+          <input type="email" class="form-control" placeholder="Mail Id" #mail required>
           <br>
-          <textarea class="form-control" rows="5" id="comment" placeholder="Your Subject"></textarea>
+          <textarea class="form-control" rows="6" id="comment" placeholder="Your Subject" #content></textarea>
           <br>
-          <button class="btn btn-primary">Send Mail</button>
+          <button class="btn btn-primary" (click)="sendMail(mail.value, content.value)">Send Mail</button>
         </div>
       </div>
       <div class="col-sm-6" style="padding-bottom: 10px;">
@@ -81,7 +81,7 @@
         <a href="../../assets/docs/Manoj Kumar Resume.pdf">
           <button class="btn btn-success">Download My Resume</button>
         </a>
-        
+
       </div>
     </div>
 
