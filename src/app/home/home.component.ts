@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   sendMail(mail: string, content: string) {
     if (mail !== '' && content !== '') {
       this.firebase.pushData('mail content', {mail, content}).then((value) => {
-        console.log('Submitted successfully');
+        window.alert(' Invite sent, I will reply ASAP');
       });
     }
   }
